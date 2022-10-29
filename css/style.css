@@ -8,14 +8,16 @@
 
 body {
     font-family: 'Raleway Dots', monospace;
-    background: #333;
+    background: url('../img/8bit-night.png');
+    /* background: #b1c98b; */
+    background-size: cover;
     color: white;
 }
 
 /* Fonts */
 h1 {
     color: white;
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-align: center;
 }
 h2 {
@@ -58,7 +60,10 @@ main {
     justify-content: center;
 }
 canvas {
-    margin-top: 0px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 5px;
+    margin-top: -25px;
+    margin-bottom: 25px;
     z-index: 0;
     width: 900px;
 }
