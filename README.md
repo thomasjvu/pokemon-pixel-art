@@ -6,7 +6,7 @@ Pokémon pixel art image generator. Images are randomized.
 This repository is for a Pokémon pixel art generator using HTML Canvas &amp; JavaScript.
 
 ## Optimization Checklist
-After the base functionality of the game is complete and V1 is live, here are some additional optimizations that will be made in a future date.
+After the base functionality is complete, here are some additional optimizations that will be made in a future date.
 
 - [ ] "Refresh" button
 - [ ] "Save Image As" button
