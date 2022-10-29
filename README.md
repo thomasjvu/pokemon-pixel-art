@@ -1,5 +1,5 @@
 # I Choose... You!
-Pokémon pixel art image generator. Images are randomized. 
+Pokémon pixel art image generator. What Pokémon will you get? Images are randomized! 
 
 ![Demo of the Pokemon pixel art image generator.](/img/cover.gif "Demo of the Pokémon pixel art image generator")
 
