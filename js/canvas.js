@@ -1,9 +1,9 @@
 const canvas = document.querySelector('canvas') // sets the canvas to a new canvas const
 const c = canvas.getContext('2d') // sets the 2D context of the canvas to the `c` const
 
-const img = document.querySelector('#pokemon') // sets our image to the const `img`
-const radius = 250
-let isImage = true
+let img = document.querySelector('img') // sets our image to the variable `img`
+const radius = 350
+let isImage = false
 
 canvas.width = innerWidth - 10
 canvas.height = innerHeight + 500
@@ -65,7 +65,7 @@ addEventListener('load', e => {
         const x = (i / 4) % img.naturalWidth
         const y = Math.floor(Math.floor(i / img.naturalHeight) / 4)
 
-            if(x % 12 === 0 && y % 12 === 0) {
+            if(x % 8 === 0 && y % 8 === 0) {
                 pixels.push({
                     x,
                     y,

@@ -1,26 +1,24 @@
+let rand = Math.floor(Math.random() * 807)
+document.querySelector('img').src = `https://cdn.traction.one/pokedex/pokemon/${rand}.png` 
+
+
 //Fetch using Pokédex API
-document.querySelector('button').addEventListener('click', getPokemon)
+// document.querySelector('button').addEventListener('click', getPokemon)
 
-// document.querySelector('button').addEventListener('click', getPokemonName)
+// function getPokemon(){
+//   let rand = Math.floor(Math.random() * 807)
+//   const choice = document.querySelector('input').value
+//   document.querySelector('img').src = `https://cdn.traction.one/pokedex/pokemon/${choice}.png` 
+//   const url = `https://pokeapi.co/api/v2/pokemon/${choice}`
 
-// funtion getPokemonName() {
-//   const name = document.querySelector('input').value
-//   document.queryselector('#pokemonName').value = name
+//   fetch(url)
+//       .then(res => res.json()) // parse response as json
+//       .then(data => {
+//         console.log(data)
+//         document.queryselector('#pokemonname').innertext = data.name
+//         // document.queryselector('#description').innertext = data.explanation
+//       })
+//       .catch(err => {
+//           console.log(`error ${err}`)
+//       });
 // }
-
-function getPokemon(){
-  const choice = document.querySelector('input').value
-  const url = `https://pokeapi.glitch.me/v1/pokemon/${choice}`
-
-  fetch(url)
-      .then(res => res.json()) // parse response as JSON
-      .then(data => {
-        console.log(data)
-        document.querySelector('#pokemonName').innerText = choice
-        document.querySelector('#img').src = data.sprite 
-        document.querySelector('#description').innerText = data.explanation
-      })
-      .catch(err => {
-          console.log(`error ${err}`)
-      });
-}

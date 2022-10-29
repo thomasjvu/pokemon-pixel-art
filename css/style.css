@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 
+/* Main Section */
+
 * {
     box-sizing: border-box;
 }
@@ -58,7 +60,7 @@ main {
 canvas {
     margin-top: 0px;
     z-index: 0;
-    max-width: 900px;
+    width: 900px;
 }
 
 /* Form */
