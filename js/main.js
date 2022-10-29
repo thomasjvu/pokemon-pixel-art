@@ -1,11 +1,12 @@
-//Example fetch using Pokédex API
+//Fetch using Pokédex API
 document.querySelector('button').addEventListener('click', getPokemon)
-document.querySelector('button').addEventListener('click', getPokemonName)
 
-funtion getPokemonName() {
-  const name = document.querySelector('input').value
-  document.queryselector('span').value = name
-}
+// document.querySelector('button').addEventListener('click', getPokemonName)
+
+// funtion getPokemonName() {
+//   const name = document.querySelector('input').value
+//   document.queryselector('#pokemonName').value = name
+// }
 
 function getPokemon(){
   const choice = document.querySelector('input').value
@@ -15,6 +16,7 @@ function getPokemon(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
+        document.querySelector('#pokemonName').innerText = choice
         document.querySelector('#img').src = data.sprite 
         document.querySelector('#description').innerText = data.explanation
       })
