@@ -1,4 +1,4 @@
-let rand = Math.floor(Math.random() * 807)
+let rand = Math.floor(Math.random() * 806)
 document.querySelector('img').src = `https://cdn.traction.one/pokedex/pokemon/${rand}.png` 
 
 

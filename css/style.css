@@ -1,32 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
-
-/* Main Section */
-
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Raleway Dots', monospace;
-    background: url('../img/8bit-night.png');
-    /* background: #b1c98b; */
-    background-size: cover;
+    font-family: monospace;
+    /* background: url('../img/wallpaper.png'); */
+    background-size: fit;
+    background-color: #0e0e0e;
+opacity: 1;
+background-image:  repeating-linear-gradient(45deg, #080808 25%, transparent 25%, transparent 75%, #080808 75%, #080808), repeating-linear-gradient(45deg, #080808 25%, #0e0e0e 25%, #0e0e0e 75%, #080808 75%, #080808);
+background-position: 0 0, 10px 10px;
+background-size: 20px 20px;
     color: white;
+    overflow: hidden;
 }
 
 /* Fonts */
 h1 {
-    color: white;
     font-size: 4.5rem;
     text-align: center;
-}
-h2 {
     font-family: monospace;
 }
+/* h2 { */
+    /* font-family: monospace; */
+/* } */
 p {
-    color: white;
     font-family: monospace;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .hidden {
@@ -60,23 +61,32 @@ main {
     justify-content: center;
 }
 canvas {
-    background: rgba(0, 0, 0, 0.55);
-    border-radius: 5px;
+    /* background: rgba(0, 0, 0, .25); */
+    border-radius: 10%;
     margin-top: -25px;
-    margin-bottom: 25px;
     z-index: 0;
     width: 900px;
+    height: auto;
+}
+
+footer {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: #fff; */
+    border-radius: 10%;
 }
 
 /* Form */
-input {
-    width: 500px;
-    font-family: monospace;
-    text-align: center;
-    z-index: 3;
-}
-button {
-    width: 500px;
-    font-family: monospace;
-    z-index: 3;
-}
+/* input { */
+/*     width: 500px; */
+/*     font-family: monospace; */
+/*     text-align: center; */
+/*     z-index: 3; */
+/* } */
+/* button { */
+/*     width: 500px; */
+/*     font-family: monospace; */
+/*     z-index: 3; */
+/* } */
