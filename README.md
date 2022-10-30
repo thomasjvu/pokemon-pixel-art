@@ -2,7 +2,7 @@
 Pokémon pixel art image generator. What Pokémon will you get? Images are randomized! 
 
 ![Cover of the Pokemon pixel art image generator](/img/cover.png "Cover of the Pokémon pixel art image generator")
-![Demo of the Pokemon pixel art image generator](/img/cover.gif "Demo of the Pokémon pixel art image generator")
+<!-- ![Demo of the Pokemon pixel art image generator](/img/cover.gif "Demo of the Pokémon pixel art image generator") -->
 
 This repository is for a Pokémon pixel art generator using HTML Canvas &amp; JavaScript.
 
