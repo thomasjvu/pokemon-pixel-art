@@ -8,7 +8,7 @@ This repository is for a Pokémon pixel art generator using HTML Canvas &amp; Ja
 ## Optimization Checklist
 After the base functionality is complete, here are some additional optimizations that will be made in a future date.
 
-- [ ] "Refresh" button
+- [X] "Refresh" button
 - [ ] "Save Image As" button
 - [ ] Enable users to input their chosen Pokémon
 - [ ] Save user's chosen Pokémon in their localStorage
