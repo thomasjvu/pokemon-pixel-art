@@ -1,12 +1,19 @@
+// Randomize Pokemon on Pageload Using PokeDex API (kinda)
 let rand = Math.floor(Math.random() * 806)
 document.querySelector('img').src = `https://cdn.traction.one/pokedex/pokemon/${rand}.png` 
 
 // Add Refresh Page Function
 function refresh() {
-    window.location.reload("Refresh")
+    window.location.reload("refresh")
 }
 
-//Fetch using Pokédex API
+// Add save image button
+async function downloadCanvas(saved) {
+    const imageURI = canvas.toDataURL("image/png")
+    saved.href = imageURI
+}
+
+// Fetch using Pokédex API
 // document.querySelector('button').addEventListener('click', getPokemon)
 
 // function getPokemon(){

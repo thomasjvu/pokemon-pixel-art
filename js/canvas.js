@@ -48,7 +48,7 @@ function animateDot(dot, canvas) {
 }
 
 
-addEventListener('click', () => {
+canvas.addEventListener('click', () => {
     isImage = !isImage
 })
 
